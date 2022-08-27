@@ -1,7 +1,7 @@
 begin;
 
 CREATE TABLE IF NOT EXISTS PWD(
-    password VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL, -- 本来はパスワードを保存しない
     pwhash VARCHAR(100) NOT NULL -- パスワードと、ソルトから生成したハッシュ（ソルトを含む）
 );
 
